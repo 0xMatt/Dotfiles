@@ -9,12 +9,15 @@
 
 [colors]
 ## Onedark Color scheme
-background = #282c34
-background-alt = #f1f1f1
-foreground = #abb2bf
-primary = #61afef
-secondary = #e60053
-alert = #bd2c40
+background = #f8f8f8
+foreground = #282c34
+background-alt = ${colors.foreground}
+;background = #282c34
+;background-alt = #f1f1f1
+;foreground = #abb2bf
+primary = #0184BC
+;secondary = #e60053
+;alert = #bd2c40
 
 blue = #61afef
 lightred = #e06c75
@@ -27,16 +30,13 @@ cyan = #56b6c2
 guttergrey = #4b5263
 commentgrey = #5c6370
 
-bar-bg = #282c34;
-bar-fg = #abb2bf;
 
 border-color = ${this.guttergrey}
 
 [bar/main]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 25
-;dpi = 192 
+height = 38
 offset-x = 0
 offset-y = 0
 radius = 0.0
@@ -44,22 +44,15 @@ fixed-center = true
 ;bottom = true
 ;bar-offset-x = 14
 ;bar-top-gap = 50
-bar-bottom-gap = 5
-border-top-size = 5wlp4s0
-border-bottom-size = 5
-;border-left-size = 0
-;border-right-size = 0
-border-color = #00000000
+border-top-size = 0
+border-bottom-size = 0
+border-left-size = 0
+border-right-size = 0
+;border-color = ${colors.foreground}
 border-size = 0
-
-border-top-color = ${colors.background}
-border-bottom-color = ${colors.background}
 
 background = ${colors.background}
 foreground = ${colors.background-alt}
-
-line-size = 3
-line-color = #f00
 
 padding-left = 1
 padding-right = 1
@@ -68,12 +61,10 @@ module-margin-left = 1
 module-margin-right = 0
 
 font-0 = SourceCodePro-Regular:pixelsize=8;0
-font-1 = FontAwesome:size=9;0
+font-1 = FontAwesome:size=10;0
 
-#modules-left = i3 mpd 
-modules-left = i3
+modules-left = i3 mpd
 modules-center = xwindow 
-#modules-right = github volume wlan eth memory cpu date
 modules-right = volume wlan memory cpu date
 
 tray-position = right
@@ -81,62 +72,56 @@ tray-padding = 1
 ;tray-transparent = true
 ;tray-background = #0063ff
 
-;wm-restack = bspwm
 ;wm-restack = i3
 ;override-redirect = true
 
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
-
 cursor-click = pointer
 cursor-scroll = ns-resize
-
 
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
-index-sort = true
+# workspace sort method, index/icon = true/false
+index-sort = false
 wrapping-scroll = false
-enable-scroll = true 
+enable-scroll = false 
 enable-click = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
 ;
 ;ws-icon-0 = 1;
-;ws-icon-default = 
+ws-icon-default = 
 
 label-mode-padding = 1
-;label-mode-foreground = #000000cc
-label-mode-foreground = ${colors.background}
+label-separator-padding = 0
 label-mode-background = ${colors.blue}
+label-mode-foreground = ${colors.background}
 
 ; focused = Active workspace on focused monitor
-label-focused = %index%
-;label-focused-background = #000000cc 
-label-focused-background = ${colors.primary}
-label-focused-foreground = ${colors.background-alt}
-label-focused-underline = ${colors.primary}
+label-focused = %icon%
+#label-focused = %index%
+label-focused-background = ${colors.background}
+label-focused-foreground = ${colors.primary}
+label-focused-underline = ${colors.background}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-;label-unfocused-background = #000000cc
-label-unfocused-background = ${colors.background-alt}
-label-unfocused-foreground= ${colors.background}
+label-unfocused = %icon%
+;label-unfocused-background = ${colors.background}
+;label-unfocused-foreground= ${colors.background-alt}
 label-unfocused-padding = 1
 
 ; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
+label-visible = %icon%
+;label-visible-background = ${self.label-focused-background}
+;label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%
+label-urgent = %icon%
 label-urgent-background = ${colors.lightred}
 label-urgent-foreground = ${colors.background-alt}
 label-urgent-padding = 1
@@ -169,29 +154,17 @@ format-online = <icon-prev><icon-stop><label-song><toggle><icon-next>
 format-online-background = ${colors.blue}
 format-online-padding = 1
 icon-prev = 
-icon-prev-background = ${colors.guttergrey}
-icon-prev-foreground = ${colors.background-alt}
 icon-prev-padding = 1
 icon-stop = 
-icon-stop-background = ${colors.guttergrey}
-icon-stop-foreground = ${colors.lightred}
 icon-stop-padding = 1
 icon-play = 
-icon-play-background = ${colors.guttergrey} 
-icon-play-foreground = ${colors.green}
 icon-play-padding = 1
 icon-pause = 
-icon-pause-background = ${colors.guttergrey}
-icon-pause-foreground = ${colors.lightyellow}
 icon-pause-padding = 1
 icon-next = 
-icon-next-background = ${colors.guttergrey}
-icon-next-foreground = ${colors.background-alt}
 icon-next-padding = 1
 
 label-song = %title% - %artist%
-label-song-background = ${colors.guttergrey}
-label-song-foreground = ${colors.background-alt}
 label-song-padding = 1
 label-song-maxlen = 55
 label-song-ellipsis = true
@@ -202,64 +175,38 @@ interval = 2
 
 # Format
 format = <label>
+format-padding = 1
 format-prefix = ""
-format-prefix-background = ${colors.lightred}
-format-prefix-foreground = ${colors.background-alt}
-format-prefix-padding = 1
+;format-prefix-background = ${colors.lightred}
+;format-prefix-foreground = ${colors.background-alt}
+format-prefix-padding = 0
 
 # Label
 label = %percentage:2%%
-label-background = ${colors.background-alt}
-label-foreground = ${colors.background}
-label-padding = 1
-
-# Ramp Load
-ramp-coreload-background = ${colors.guttergrey}
-ramp-coreload-foreground = ${colors.background-alt}
-ramp-coreload-padding = 1
-ramp-coreload-spacing = 0
-ramp-coreload-0 = ▁
-ramp-coreload-1 = ▂
-ramp-coreload-2 = ▃
-ramp-coreload-3 = ▄
-ramp-coreload-4 = ▅
-ramp-coreload-5 = ▆
-ramp-coreload-6 = ▇
-ramp-coreload-7 = █
+;label-background = ${colors.background-alt}
+;label-foreground = ${colors.background}
+label-padding = 0
 
 [module/memory]
 type = internal/memory
 interval = 2
 format = <label>
+format-padding = 1
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-background = ${colors.green}
-format-prefix-foreground = ${colors.background-alt}
-;format-prefix-foreground = ${colors.commentgrey}
-;format-underline = ${colors.green}
-label-background = ${colors.background-alt}
-label-foreground = ${colors.background}
-label-padding = 1
+label-padding = 0
 label = %percentage_used%%
-; Only applies if <bar-used> is used
 
 [module/wlan]
 type = internal/network
 interface = wlp4s0
 interval = 3.0
 
+format-padding = 1
 format-connected =  <label-connected>
-format-connected-background = ${colors.darkyellow}
-format-connected-foreground = ${colors.background}
-format-connected-padding = 1
+format-connected-padding = 0
 label-connected = %essid%
-label-connected-padding = 1
-label-connected-background = ${colors.background-alt}
-label-connected-foreground = ${colors.guttergrey}
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground}
+label-connected-padding = 0
 
 [module/eth]
 type = internal/network
@@ -276,10 +223,6 @@ label-connected-background = ${colors.guttergrey}
 label-connected-foreground = ${colors.background-alt}
 
 format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground}
 
 [module/date]
 type     = internal/date
@@ -291,19 +234,15 @@ time-alt = "@ %H:%M:%S"
 label    = %date% %time%
 
 format         = <label>
-format-padding = 0
+format-padding = 1
 
 format-prefix            = 
-format-prefix-background = ${colors.primary}
-format-prefix-foreground = ${colors.background-alt}
 format-prefix-padding    = 1
 
-label-background = ${colors.background-alt}
-label-foreground = ${colors.background}
-label-padding    = 1
+label-padding    = 0
 
 [module/volume]
-type          = internal/pulseaudio
+type          = internal/alsa
 format-volume = <label-volume>
 
 ; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
@@ -319,50 +258,27 @@ use-ui-max = true
 interval = 5
 
 format-volume-prefix            = 
-format-volume-prefix-background = ${colors.magenta}
-format-volume-prefix-foreground = ${colors.background-alt}
-format-volume-prefix-padding    = 1
+;format-volume-prefix-background = ${colors.magenta}
+;format-volume-prefix-foreground = ${colors.background-alt}
+format-volume-prefix-padding    = 0
 
 label-volume            = %percentage%%
-label-volume-background = ${colors.background-alt}
-label-volume-foreground = ${colors.background}
+;label-volume-background = ${colors.background-alt}
+;label-volume-foreground = ${colors.background}
 label-volume-padding    = 1
 
 format-muted = <label-muted>
-
-format-muted-prefix            =  
-format-muted-prefix-padding    = 1
-format-muted-prefix-background = ${colors.darkyellow}
-format-muted-prefix-foreground = ${colors.background-alt}
+format-muted-prefix            = 
+format-muted-prefix-padding    = 0
+format-muted-prefix-foreground = ${colors.darkred}
 
 label-muted            = 0%
-label-muted-foreground = ${colors.commentgrey}
-label-muted-background = ${colors.background-alt}
 label-muted-padding    = 1
 
 format-volume-padding = 0
 format-muted-padding  = 0
 
 ramp-headphones-0 = 
-
-[module/github]
-type = internal/github
-
-token = ${file:/home/matthew/Documents/access.token} 
-empty-notifications = false
-interval = 10
-
-format = <label>
-
-; Available tokens:
-;   %notifications% (default)
-; Default: Notifications: %notifications%
-label = %notifications%
-
-[module/info-kernel]
-type = custom/script
-exec = uname -r
-interval = 1024
 
 [settings]
 screenchange-reload = true
@@ -374,5 +290,4 @@ screenchange-reload = true
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
 ; vim:ft=dosini
