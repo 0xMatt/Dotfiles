@@ -8,13 +8,11 @@
 ;=====================================================
 
 [colors]
-## Onedark Color scheme
-background = #f8f8f8
-foreground = #282c34
-background-alt = ${colors.foreground}
-;background = #282c34
-;background-alt = #f1f1f1
-;foreground = #abb2bf
+; Onedark Color scheme
+;background = #f8f8f8
+;foreground = #282c34
+background = #282c34
+foreground = #abb2bf
 primary = #0184BC
 ;secondary = #e60053
 ;alert = #bd2c40
@@ -22,16 +20,8 @@ primary = #0184BC
 blue = #61afef
 lightred = #e06c75
 darkred = #be5046
-green = #98c379
 lightyellow = #e5c07b
 darkyellow = #d19a66wlp4s0
-magenta = #c678dd
-cyan = #56b6c2
-guttergrey = #4b5263
-commentgrey = #5c6370
-
-
-border-color = ${this.guttergrey}
 
 [bar/main]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -52,7 +42,7 @@ border-right-size = 0
 border-size = 0
 
 background = ${colors.background}
-foreground = ${colors.background-alt}
+foreground = ${colors.foreground}
 
 padding-left = 1
 padding-right = 1
@@ -63,14 +53,14 @@ module-margin-right = 0
 font-0 = SourceCodePro-Regular:pixelsize=8;0
 font-1 = FontAwesome:size=10;0
 
-modules-left = i3 mpd
+modules-left = menu i3 mpd
 modules-center = xwindow 
 modules-right = volume wlan memory cpu date
 
 tray-position = right
 tray-padding = 1
-;tray-transparent = true
-;tray-background = #0063ff
+;tray-transparent = false 
+tray-background = ${colors.background}
 
 ;wm-restack = i3
 ;override-redirect = true
@@ -83,7 +73,7 @@ cursor-scroll = ns-resize
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
-# workspace sort method, index/icon = true/false
+; workspace sort method, index/icon = true/false
 index-sort = false
 wrapping-scroll = false
 enable-scroll = false 
@@ -91,10 +81,8 @@ enable-click = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
-;
 ;ws-icon-0 = 1;
 ws-icon-default = 
-
 label-mode-padding = 1
 label-separator-padding = 0
 label-mode-background = ${colors.blue}
@@ -102,7 +90,7 @@ label-mode-foreground = ${colors.background}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
-#label-focused = %index%
+;label-focused = %index%
 label-focused-background = ${colors.background}
 label-focused-foreground = ${colors.primary}
 label-focused-underline = ${colors.background}
@@ -110,26 +98,26 @@ label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-;label-unfocused-background = ${colors.background}
-;label-unfocused-foreground= ${colors.background-alt}
 label-unfocused-padding = 1
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %icon%
-;label-visible-background = ${self.label-focused-background}
-;label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
-label-urgent-background = ${colors.lightred}
-label-urgent-foreground = ${colors.background-alt}
+label-urgent-foreground = ${colors.lightred}
 label-urgent-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:60:...%
-;format-underline = ${colors.lightyellow}
+
+[module/menu]
+type = custom/script
+exec = echo apps
+click-left = rofi -show drun -drun-icon-theme Yosa Max -show-icons
+label = Apps
 
 [module/filesystem]
 type = internal/fs
@@ -138,15 +126,10 @@ interval = 25
 mount-0 = /
 ;mount-1 = /home
 format-mounted =  <label-mounted>
-format-mounted-background = ${colors.darkred}
-format-mounted-foreground = ${colors.background-alt}
 format-mounted-padding = 1
 label-mounted-padding = 1
 label-mounted = %mountpoint%: %percentage_free%% Free
-label-mounted-foreground = ${colors.background-alt}
-label-mounted-background = ${colors.commentgrey}
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground}
 
 [module/mpd]
 type = internal/mpd
@@ -173,18 +156,14 @@ label-song-ellipsis = true
 type = internal/cpu
 interval = 2
 
-# Format
+; Format
 format = <label>
 format-padding = 1
 format-prefix = ""
-;format-prefix-background = ${colors.lightred}
-;format-prefix-foreground = ${colors.background-alt}
 format-prefix-padding = 0
 
-# Label
+; Label
 label = %percentage:2%%
-;label-background = ${colors.background-alt}
-;label-foreground = ${colors.background}
 label-padding = 0
 
 [module/memory]
@@ -213,14 +192,10 @@ type = internal/network
 interface = enp3s0
 interval = 3.0
 
-format-connected-prefix-background = ${colors.cyan}
-format-connected-prefix-foreground = ${colors.background-alt}
 format-connected-prefix-padding = 1
 format-connected-prefix = ""
 label-connected-padding = 1
 label-connected = %local_ip%
-label-connected-background = ${colors.guttergrey}
-label-connected-foreground = ${colors.background-alt}
 
 format-disconnected =
 
@@ -258,13 +233,9 @@ use-ui-max = true
 interval = 5
 
 format-volume-prefix            = 
-;format-volume-prefix-background = ${colors.magenta}
-;format-volume-prefix-foreground = ${colors.background-alt}
 format-volume-prefix-padding    = 0
 
 label-volume            = %percentage%%
-;label-volume-background = ${colors.background-alt}
-;label-volume-foreground = ${colors.background}
 label-volume-padding    = 1
 
 format-muted = <label-muted>
