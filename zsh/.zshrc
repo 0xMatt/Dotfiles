@@ -23,6 +23,7 @@ antigen bundle HeroCC/LS_COLORS
 # Load the theme.
 #antigen theme bhilburn/powerlevel9k powerlevel9k
 antigen theme bhilburn/powerlevel9k powerlevel9k
+#antigen theme abaykan/Mine abaykan
 
 # Powerlevel9k
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
