@@ -197,7 +197,8 @@ exec_always xautolock -time 20 -locker 'i3lock --color=3c6eb4'
 ## Transmission Daemon
 exec transmission-remote -D -U -er -w /home/matthew/Downloads
 
-exec_always --no-startup-id mopidy
+# Mopidy
+exec --no-startup-id mopidy
 
 ## Compton
 exec_always --no-startup-id ~/.config/i3/compton.sh 

@@ -18,7 +18,7 @@ sudo dnf -y install @base-x htop neofetch ncmpcpp transmission-remote-cli transm
   zsh util-linux-user stow whois traceroute steam xautolock
 
 # Stow
-cd /home/$USER/Dotfiles
+cd /home/$USER/.dotfiles
 stow compton
 stow i3
 stow polybar
@@ -45,5 +45,5 @@ chsh -s $(which zsh)
 #sudo dnf -y install imgur-screenshot
 
 # SpaceVim
-#curl -sLf https://spacevim.org/install.sh | bash
+curl -sLf https://spacevim.org/install.sh | bash
 
