@@ -171,42 +171,38 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-
 # i3-gaps
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 
 # Window borders
-gaps inner 15
+gaps inner 45
 gaps outer 10
 
 # # Do not follow the mouse
-#focus_follows_mouse no
+focus_follows_mouse no
+
+## Compton
+exec_always --no-startup-id ~/.config/i3/compton.sh
 
 ## Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Media/Wallpapers/fedora-minimal.jpg
-#exec_always --no-startup-id xsetroot -solid "#282c34"
-
-## Polybar
-exec_always --no-startup-id ~/.config/i3/polybar.sh 
-
-## Autolock
-
-exec_always xautolock -time 20 -locker 'i3lock --color=3c6eb4'
-#exec_always xautolock -time 1 -locker 'pipes.sh -t3'
-
-## Transmission Daemon
-exec transmission-remote -D -U -er -w /home/matthew/Downloads
+exec_always --no-startup-id feh --bg-scale ~/Media/Wallpapers/fallout-new-vegas-vector-art.jpg
 
 # Mopidy
 exec --no-startup-id mopidy
 
-## Compton
-exec_always --no-startup-id ~/.config/i3/compton.sh 
+## Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh 
+
+## Autolock
+exec_always xautolock -time 20 -locker 'i3lock --color=3c6eb4'
+
+## Transmission Daemon
+exec transmission-remote -D -U -er -w ~/Downloads
 
 # Bindings 
 
 ## Lockscreen
-bindsym Ctrl+$mod+BackSpace exec "i3lock --color=3c6eb4"
+bindsym Ctrl+$mod+BackSpace exec "~/.config/i3/i3lock-fancy-multimonitor/lock --blur=2x6"
 
 ## Imgur screenshot
 ## Screenshot bindings

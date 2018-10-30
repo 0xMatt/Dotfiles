@@ -9,10 +9,10 @@
 
 [colors]
 ; Onedark Color scheme
-;background = #f8f8f8
-;foreground = #282c34
-background = #282c34
-foreground = #abb2bf
+background = #00282c34
+foreground = #f8f8f8
+;background = #282c34
+;foreground = #abb2bf
 primary = #0184BC
 ;secondary = #e60053
 ;alert = #bd2c40
@@ -24,7 +24,7 @@ lightyellow = #e5c07b
 darkyellow = #d19a66wlp4s0
 
 [bar/main]
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR:HDMI-0}
 width = 100%
 height = 38
 offset-x = 0
@@ -44,10 +44,10 @@ border-size = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-padding-left = 1
+padding-left = 0
 padding-right = 1
 
-module-margin-left = 1
+module-margin-left = 0
 module-margin-right = 0
 
 font-0 = SourceCodePro-Regular:pixelsize=8;0
@@ -60,7 +60,8 @@ modules-right = volume wlan memory cpu date
 tray-position = right
 tray-padding = 1
 ;tray-transparent = false 
-tray-background = ${colors.background}
+tray-background = ${colors.foreground}
+tray-foreground = ${colors.background}
 
 ;wm-restack = i3
 ;override-redirect = true
@@ -81,12 +82,15 @@ enable-click = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
-;ws-icon-0 = 1;
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-5 = 6;
 ws-icon-default = 
 label-mode-padding = 1
 label-separator-padding = 0
-label-mode-background = ${colors.blue}
-label-mode-foreground = ${colors.background}
+label-mode-background = ${colors.background}
+label-mode-foreground = ${colors.foreground}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
@@ -94,16 +98,18 @@ label-focused = %icon%
 label-focused-background = ${colors.background}
 label-focused-foreground = ${colors.primary}
 label-focused-underline = ${colors.background}
-label-focused-padding = 1
+label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %icon%
-label-unfocused-padding = 1
-
+label-unfocused-padding = 2
+;label-unfocused-background = ${colors.foreground}
+;label-unfocused-foreground = ${colors.background}
 ; visible = Active workspace on unfocused monitor
 label-visible = %icon%
 label-visible-padding = ${self.label-focused-padding}
-
+;label-visible-background = ${colors.foreground}
+;label-visible-foreground = ${colors.background}
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
 label-urgent-foreground = ${colors.lightred}
@@ -117,7 +123,10 @@ label = %title:0:60:...%
 type = custom/script
 exec = echo apps
 click-left = rofi -show drun -drun-icon-theme Yosa Max -show-icons
-label = Apps
+label = 
+;label-background = ${colors.foreground}
+;label-foreground = ${colors.background}
+label-padding = 2
 
 [module/filesystem]
 type = internal/fs
@@ -159,7 +168,7 @@ interval = 2
 ; Format
 format = <label>
 format-padding = 1
-format-prefix = ""
+format-prefix = 
 format-prefix-padding = 0
 
 ; Label

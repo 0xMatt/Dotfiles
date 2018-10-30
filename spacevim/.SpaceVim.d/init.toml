@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "onedark"
+    colorscheme = "gruvbox"
     colorscheme_bg = "light"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -31,6 +31,7 @@ auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
 name = 'shell'
+
 default_position = 'top'
 default_height = 30
 
@@ -44,7 +45,22 @@ default_height = 30
   name = "tags"
 
 [[layers]]
+  name = "git"
+
+[[layers]]
+  name = "debug"
+
+[[layers]]
   name = "colorscheme"
+
+[[layers]]
+  name = "lang#html"
+
+[[layers]]
+  name = "lang#markdown"
+
+[[layers]]
+  name = "lang#vim"
 
 [[layers]]
   name = "lang#php"
@@ -65,6 +81,9 @@ default_height = 30
   name = "lang#toml"
 
 [[layers]]
+  name = "lang#vim"
+
+[[layers]]
   name = "lsp"
   filetypes = [
     "vue",
@@ -80,3 +99,9 @@ default_height = 30
     name = "lilydjwg/colorizer"
     on_cmd = ["ColorHighlight", "ColorToggle"]
     merged = 0
+
+[[custom_plugins]]
+  name = "HerringtonDarkholme/yats.vim"
+
+[[custom_plugins]]
+  name = "janko-m/vim-test"
