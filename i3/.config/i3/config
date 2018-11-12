@@ -181,23 +181,24 @@ gaps outer 10
 # # Do not follow the mouse
 focus_follows_mouse no
 
-## Compton
-exec_always --no-startup-id ~/.config/i3/compton.sh
-
 ## Wallpaper
 exec_always --no-startup-id feh --bg-scale ~/Media/Wallpapers/fallout-new-vegas-vector-art.jpg
 
-# Mopidy
-exec --no-startup-id mopidy
+## Compton
+exec_always --no-startup-id ~/.config/i3/compton.sh
 
-## Polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh 
+# Mopidy
+#exec --no-startup-id mopidy
+
 
 ## Autolock
-exec_always xautolock -time 20 -locker 'i3lock --color=3c6eb4'
+exec_always xautolock -time 10 -locker "~/.config/i3/i3lock-fancy-multimonitor/lock --blur=2x6"
 
 ## Transmission Daemon
-exec transmission-remote -D -U -er -w ~/Downloads
+#exec transmission-remote -D -U -er -w ~/Downloads
+
+## Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Bindings 
 
