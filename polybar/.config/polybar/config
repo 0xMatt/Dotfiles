@@ -9,22 +9,32 @@
 
 [colors]
 ; Onedark Color scheme
-background = #00282c34
-foreground = #f8f8f8
+;background = #00282c34
+;foreground = #f8f8f8
 ;background = #282c34
 ;foreground = #abb2bf
-primary = #0184BC
+;primary = #0184BC
 ;secondary = #e60053
 ;alert = #bd2c40
 
-blue = #61afef
+;blue = #61afef
 lightred = #e06c75
 darkred = #be5046
 lightyellow = #e5c07b
-darkyellow = #d19a66wlp4s0
+darkyellow = #d19a66
+
+; Gruvbox
+background = #fbf1c7
+foreground = #928374
+primary = #af3a03
+orange = #d65d0e
+blue = #076678
+aqua = #427b58
+green = #79740e
+yellow = #d79921
 
 [bar/main]
-monitor = ${env:MONITOR:HDMI-0}
+;monitor = ${env:MONITOR:HDMI-0}
 width = 100%
 height = 38
 offset-x = 0
@@ -60,8 +70,8 @@ modules-right = volume wlan memory cpu date
 tray-position = right
 tray-padding = 1
 ;tray-transparent = false 
-tray-background = ${colors.foreground}
-tray-foreground = ${colors.background}
+tray-background = ${colors.background}
+tray-foreground = ${colors.foreground}
 
 ;wm-restack = i3
 ;override-redirect = true
@@ -82,10 +92,11 @@ enable-click = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
-ws-icon-0 = 1;
-ws-icon-1 = 2;
+ws-icon-0 = 1;
+ws-icon-1 = 2;
 ws-icon-2 = 3;
-ws-icon-5 = 6;
+ws-icon-3 = 4;
+ws-icon-4 = 5;
 ws-icon-default = 
 label-mode-padding = 1
 label-separator-padding = 0
@@ -168,9 +179,9 @@ interval = 2
 ; Format
 format = <label>
 format-padding = 1
-format-prefix = 
+format-prefix = 
 format-prefix-padding = 0
-
+format-prefix-foreground = ${colors.green}
 ; Label
 label = %percentage:2%%
 label-padding = 0
@@ -182,6 +193,7 @@ format = <label>
 format-padding = 1
 format-prefix = 
 format-prefix-padding = 1
+format-prefix-foreground = ${colors.orange}
 label-padding = 0
 label = %percentage_used%%
 
@@ -190,11 +202,12 @@ type = internal/network
 interface = wlp4s0
 interval = 3.0
 
-format-padding = 1
-format-connected =  <label-connected>
+format-connected-prefix = 
+format-connected-prefix-foreground = ${colors.blue}
+format-connected =  <label-connected>
 format-connected-padding = 0
 label-connected = %essid%
-label-connected-padding = 0
+label-connected-padding = 1
 
 [module/eth]
 type = internal/network
@@ -222,7 +235,7 @@ format-padding = 1
 
 format-prefix            = 
 format-prefix-padding    = 1
-
+format-prefix-foreground = ${colors.aqua}
 label-padding    = 0
 
 [module/volume]
@@ -243,6 +256,7 @@ interval = 5
 
 format-volume-prefix            = 
 format-volume-prefix-padding    = 0
+format-volume-prefix-foreground = ${colors.yellow}
 
 label-volume            = %percentage%%
 label-volume-padding    = 1

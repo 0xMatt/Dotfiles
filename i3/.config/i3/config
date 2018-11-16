@@ -175,27 +175,26 @@ bindsym $mod+r mode "resize"
 for_window [class="^.*"] border pixel 0
 
 # Window borders
-gaps inner 45
-gaps outer 10
+gaps inner 10
+gaps outer 5
 
 # # Do not follow the mouse
 focus_follows_mouse no
 
 ## Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/Media/Wallpapers/fallout-new-vegas-vector-art.jpg
+exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.jpg
 
 ## Compton
 exec_always --no-startup-id ~/.config/i3/compton.sh
 
 # Mopidy
-#exec --no-startup-id mopidy
-
+exec --no-startup-id mopidy
 
 ## Autolock
-exec_always xautolock -time 10 -locker "~/.config/i3/i3lock-fancy-multimonitor/lock --blur=2x6"
+exec xautolock -time 3 -locker i3lock-fancy
 
 ## Transmission Daemon
-#exec transmission-remote -D -U -er -w ~/Downloads
+exec transmission-remote -D -U -er -w ~/Downloads
 
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
@@ -203,7 +202,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # Bindings 
 
 ## Lockscreen
-bindsym Ctrl+$mod+BackSpace exec "~/.config/i3/i3lock-fancy-multimonitor/lock --blur=2x6"
+bindsym Ctrl+$mod+BackSpace exec i3lock-fancy
 
 ## Imgur screenshot
 ## Screenshot bindings
