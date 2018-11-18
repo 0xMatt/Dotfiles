@@ -191,7 +191,7 @@ exec_always --no-startup-id ~/.config/i3/compton.sh
 exec --no-startup-id mopidy
 
 ## Autolock
-exec xautolock -time 3 -locker i3lock-fancy
+exec xautolock -time 30 -locker i3lock-fancy
 
 ## Transmission Daemon
 exec transmission-remote -D -U -er -w ~/Downloads
