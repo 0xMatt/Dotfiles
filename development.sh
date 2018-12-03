@@ -1,6 +1,3 @@
-# SpaceVim                                                                          
-curl -sLf https://spacevim.org/install.sh | bash
-
 # PHP Crap
 sudo dnf install -y nodejs php php-process php-opcache php-json php-msgpack php-xml php-mbstring php-xdebug php-intl
 
@@ -24,3 +21,5 @@ sudo npm install -g neovim
 sudo pip2 install neovim
 sudo pip3 install neovim
 
+# SpaceVim                                                                          
+curl -sLf https://spacevim.org/install.sh | bash
