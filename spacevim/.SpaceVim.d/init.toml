@@ -41,15 +41,36 @@ name = 'colorscheme'
 
 [[layers]]
 name = 'debug'
+
+[[layers]]
+name = 'VersionControl'
+
 [[layers]]
 name = 'git'
+
+[[layers]]
+name = 'lang#html'
+
+[[layers]]
+name = 'lang#markdown'
+
 [[layers]]
 name = 'lang#typescript'
+
+[[layers]]
+name = 'lang#javascript'
+
 [[layers]]
 name = 'lang#php'
 
 [[layers]]
 name = 'lang#sh'
+
+[[layers]]
+name = 'lang#vim'
+
+[[layers]]
+name = 'lang#vue'
 
 [[layers]]
 name = 'lang#toml'
