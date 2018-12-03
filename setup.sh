@@ -16,6 +16,7 @@ stow spacevim
 stow ranger
 stow dunst
 stow imgur-screenshot
+stow rofi
 cd ~
 
 # RPMFusion
@@ -33,7 +34,7 @@ sudo dnf -y install @base-x htop neofetch ncmpcpp transmission-remote-cli transm
   zsh util-linux-user whois traceroute xautolock dunst steam NetworkManager-wifi
 
 # Copr Repositories
-sudo dnf -y copr enable vladikss/imgur-screenshot
+sudo dnf -y copr enable valdikss/imgur-screenshot
 sudo dnf -y install imgur-screenshot
 
 sudo dnf -y copr enable livegrenier/i3-desktop
