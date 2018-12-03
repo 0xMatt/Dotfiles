@@ -181,20 +181,8 @@ gaps outer 5
 # # Do not follow the mouse
 focus_follows_mouse no
 
-## Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.jpg
-
 ## Compton
 exec_always --no-startup-id ~/.config/i3/compton.sh
-
-# Mopidy
-exec --no-startup-id mopidy
-
-## Autolock
-exec xautolock -time 30 -locker i3lock-fancy
-
-## Transmission Daemon
-exec transmission-remote -D -U -er -w ~/Downloads
 
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
