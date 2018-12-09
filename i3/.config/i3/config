@@ -187,7 +187,10 @@ exec_always --no-startup-id ~/.config/i3/compton.sh
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-# Bindings 
+# Bindings
+
+## Screen record
+bindsym $mod+Shift+Print exec ~/.config/i3/screencast.sh &
 
 ## Lockscreen
 bindsym Ctrl+$mod+BackSpace exec i3lock-fancy
