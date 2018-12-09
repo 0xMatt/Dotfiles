@@ -89,3 +89,7 @@ name = 'tools'
 
 [[layers]]
 name = 'tools#dash'
+
+[[custom_plugins]]
+name ="janko-m/vim-test"
+
