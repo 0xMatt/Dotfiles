@@ -17,7 +17,7 @@
 
 mopidy &
 
-xautolock -time 30 -locker i3ock-fancy &
+xautolock -time 30 -locker i3lock-fancy &
 
 transmission-remote -D -U -er -w ~/Downloads &
 
