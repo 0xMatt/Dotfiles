@@ -63,7 +63,7 @@ module-margin-right = 0
 font-0 = SourceCodePro-Regular:pixelsize=8;0
 font-1 = FontAwesome:size=10;0
 
-modules-left = menu i3 mpd
+modules-left = i3 mpd
 modules-center = xwindow 
 modules-right = volume wlan memory cpu date
 
@@ -129,15 +129,6 @@ label-urgent-padding = 1
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:60:...%
-
-[module/menu]
-type = custom/script
-exec = echo apps
-click-left = rofi -show drun -drun-icon-theme Yosa Max -show-icons
-label = 
-;label-background = ${colors.foreground}
-;label-foreground = ${colors.background}
-label-padding = 2
 
 [module/filesystem]
 type = internal/fs
