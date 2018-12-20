@@ -17,6 +17,7 @@ stow ranger
 stow dunst
 stow imgur-screenshot
 stow rofi
+stow xorg
 cd ~
 
 # RPMFusion
