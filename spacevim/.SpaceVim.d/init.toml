@@ -11,6 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
+    relativenumber = true
     colorscheme = "gruvbox"
     colorscheme_bg = 'light'
     background = "light"
@@ -24,7 +25,6 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = false
-
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -47,6 +47,9 @@ name = 'VersionControl'
 
 [[layers]]
 name = 'git'
+
+[[layers]]
+name = 'test'
 
 [[layers]]
 name = 'lang#html'
@@ -89,7 +92,3 @@ name = 'tools'
 
 [[layers]]
 name = 'tools#dash'
-
-[[custom_plugins]]
-name ="janko-m/vim-test"
-
