@@ -1,5 +1,7 @@
 # PHP Crap
-sudo dnf install -y nodejs php php-process php-opcache php-json php-msgpack php-xml php-mbstring php-xdebug php-intl
+sudo dnf install -y nodejs \
+  php php-process php-opcache php-json \
+  php-msgpack php-xml php-mbstring php-xdebug php-intl
 
 ## Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -14,7 +16,7 @@ chmod +x phpunit
 sudo mv phpunit /usr/bin/phpunit
 
 # NodeJS/Typescript Crap
-sudo npm install -g javascript-typescript-langserver typescript
+sudo npm install -g typescript-language-server vue-language-server typescript
 
 ## Neo/Vim crap
 sudo npm install -g neovim

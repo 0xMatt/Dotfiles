@@ -25,8 +25,9 @@ antigen theme bhilburn/powerlevel9k powerlevel9k
 #antigen theme abaykan/Mine abaykan
 
 # Powerlevel9k
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time time)
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs command_execution_time time status)
 POWERLEVEL9K_MODE='awesome-fontconfig'
 #POWERLEVEL9K_OS_ICON_BACKGROUND="237"
 #POWERLEVEL9K_OS_ICON_FOREGROUND="255"
@@ -34,6 +35,8 @@ POWERLEVEL9K_MODE='awesome-fontconfig'
 #POWERLEVEL9K_DIR_HOME_BACKGROUND="068"
 #POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="black"
 #POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="black"
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+
 
 # Tell Antigen that you're done.
 antigen apply

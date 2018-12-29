@@ -1,8 +1,8 @@
 #!/bin/bash
  
 DATETIME=$(date +"%m-%d-%Y_%H:%M:%S")
-DELAY=5
-DURATION=5
+DELAY=1
+DURATION=4
 DIR="$HOME/Media/Screencasts"
 
 notify-send "Screen Recorder" "Recording duration set to $DURATION seconds. Recording will start in $DELAY seconds."

@@ -12,6 +12,7 @@ stow compton
 stow i3
 stow polybar
 stow zsh
+stow neovim
 stow spacevim
 stow ranger
 stow dunst
