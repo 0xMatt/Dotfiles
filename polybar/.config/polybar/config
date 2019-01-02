@@ -9,34 +9,18 @@
 
 [colors]
 ; Onedark Color scheme
-;background = #00282c34
-;foreground = #f8f8f8
-;background = #282c34
-;foreground = #abb2bf
-;primary = #0184BC
+background = #282c34
+foreground = #f8f8f8
+primary = #0184BC
+urgent = #0184BC
 ;secondary = #e60053
 ;alert = #bd2c40
 
-;blue = #61afef
-lightred = #e06c75
-darkred = #be5046
-lightyellow = #e5c07b
-darkyellow = #d19a66
-
-; Gruvbox
-background = #fbf1c7
-foreground = #928374
-primary = #af3a03
-orange = #d65d0e
-blue = #076678
-aqua = #427b58
-green = #79740e
-yellow = #d79921
 
 [bar/main]
 ;monitor = ${env:MONITOR:HDMI-0}
 width = 100%
-height = 38
+height = 32
 offset-x = 0
 offset-y = 0
 radius = 0.0
@@ -48,7 +32,7 @@ border-top-size = 0
 border-bottom-size = 0
 border-left-size = 0
 border-right-size = 0
-;border-color = ${colors.foreground}
+border-color = ${colors.foreground}
 border-size = 0
 
 background = ${colors.background}
@@ -73,7 +57,7 @@ tray-padding = 1
 tray-background = ${colors.background}
 tray-foreground = ${colors.foreground}
 
-;wm-restack = i3
+wm-restack = i3
 ;override-redirect = true
 
 ;scroll-up = i3wm-wsnext
@@ -92,7 +76,7 @@ enable-click = false
 
 ; Only show workspaces on the same output as the bar
 ;pin-workspaces = true
-ws-icon-0 = 1;
+ws-icon-0 = 1; 
 ws-icon-1 = 2;
 ws-icon-2 = 3;
 ws-icon-3 = 4;
@@ -100,7 +84,7 @@ ws-icon-4 = 5;
 ws-icon-default = 
 label-mode-padding = 1
 label-separator-padding = 0
-label-mode-background = ${colors.background}
+label-mode-background = ${colors.primary}
 label-mode-foreground = ${colors.foreground}
 
 ; focused = Active workspace on focused monitor
@@ -123,7 +107,7 @@ label-visible-padding = ${self.label-focused-padding}
 ;label-visible-foreground = ${colors.background}
 ; urgent = Workspace with urgency hint set
 label-urgent = %icon%
-label-urgent-foreground = ${colors.lightred}
+label-urgent-foreground = ${colors.urgent}
 label-urgent-padding = 1
 
 [module/xwindow]
@@ -145,7 +129,7 @@ label-unmounted = %mountpoint% not mounted
 [module/mpd]
 type = internal/mpd
 format-online = <icon-prev><icon-stop><label-song><toggle><icon-next>
-format-online-background = ${colors.blue}
+;format-online-background = ${colors.blue}
 format-online-padding = 1
 icon-prev = 
 icon-prev-padding = 1
@@ -172,7 +156,7 @@ format = <label>
 format-padding = 1
 format-prefix = 
 format-prefix-padding = 0
-format-prefix-foreground = ${colors.green}
+;format-prefix-foreground = ${colors.green}
 ; Label
 label = %percentage:2%%
 label-padding = 0
@@ -184,7 +168,7 @@ format = <label>
 format-padding = 1
 format-prefix = 
 format-prefix-padding = 1
-format-prefix-foreground = ${colors.orange}
+;format-prefix-foreground = ${colors.orange}
 label-padding = 0
 label = %percentage_used%%
 
@@ -193,11 +177,11 @@ type = internal/network
 interface = wlp4s0
 interval = 3.0
 
-format-connected-prefix = 
-format-connected-prefix-foreground = ${colors.blue}
+format-connected-prefix = 
+;format-connected-prefix-foreground = ${colors.blue}
 format-connected =  <label-connected>
 format-connected-padding = 0
-label-connected = %essid%
+label-connected =  %downspeed%  %upspeed%
 label-connected-padding = 1
 
 [module/eth]
@@ -215,10 +199,10 @@ format-disconnected =
 [module/date]
 type     = internal/date
 interval = 1.0
-date     = %a, %b %d 
+date     = 
 date-alt = %a, %b %d
-time     = "@ %H:%M:%S"
-time-alt = "@ %H:%M:%S"
+time     = "%H:%M"
+time-alt = "%H:%M:%S"
 label    = %date% %time%
 
 format         = <label>
@@ -226,7 +210,7 @@ format-padding = 1
 
 format-prefix            = 
 format-prefix-padding    = 1
-format-prefix-foreground = ${colors.aqua}
+;format-prefix-foreground = ${colors.aqua}
 label-padding    = 0
 
 [module/volume]
@@ -247,7 +231,7 @@ interval = 5
 
 format-volume-prefix            = 
 format-volume-prefix-padding    = 0
-format-volume-prefix-foreground = ${colors.yellow}
+;format-volume-prefix-foreground = ${colors.yellow}
 
 label-volume            = %percentage%%
 label-volume-padding    = 1
@@ -255,7 +239,7 @@ label-volume-padding    = 1
 format-muted = <label-muted>
 format-muted-prefix            = 
 format-muted-prefix-padding    = 0
-format-muted-prefix-foreground = ${colors.darkred}
+;format-muted-prefix-foreground = ${colors.darkred}
 
 label-muted            = 0%
 label-muted-padding    = 1

@@ -8,8 +8,8 @@
 
 # All SpaceVim option below [option] section
 [options]
-    colorscheme = "gruvbox"
-    colorscheme_bg = 'light'
+    colorscheme = "one"
+    colorscheme_bg = 'dark'
     enable_guicolors = true
     statusline_separator = "arrow"
     statusline_inactive_separator = "arrow"
