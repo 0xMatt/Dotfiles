@@ -187,6 +187,7 @@ exec_always --no-startup-id ~/.config/i3/compton.sh
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
+exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.png
 # Bindings
 
 ## Screen record

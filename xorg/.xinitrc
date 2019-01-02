@@ -21,7 +21,7 @@ xautolock -time 30 -locker i3lock-fancy &
 
 transmission-remote -D -U -er -w ~/Downloads &
 
-feh --bg-scale ~/.dotfiles/wallpaper.jpg &
+#feh --bg-scale ~/.dotfiles/wallpaper.jpg &
 
 exec i3
 
