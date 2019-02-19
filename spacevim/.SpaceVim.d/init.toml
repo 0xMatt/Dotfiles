@@ -89,3 +89,15 @@ name = 'tools'
 
 [[layers]]
 name = 'tools#dash'
+
+[[custom_plugins]]
+name = "lilydjwg/colorizer"
+merged = 0
+
+[[custom_plugins]]
+name = 'luochen1990/rainbow'
+merged = 0
+
+[[custom_plugins]]
+name = 'godlygeek/csapprox'
+merged = 0
