@@ -31,9 +31,9 @@ sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curr
 sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
 
 # Default Packages ;)
-sudo dnf -y install @base-x htop neofetch ncmpcpp transmission-remote-cli transmission-daemon git wget \
-  weechat compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger qutebrowser gnome-terminal \
-  zsh util-linux-user whois traceroute xautolock dunst steam NetworkManager-wifi byzanz
+sudo dnf -y install @base-x htop neofetch ncmpcpp git wget ctags words \
+  weechat compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
+  zsh util-linux-user whois traceroute xautolock dunst steam NetworkManager-wifi byzanz kernel-modules-extra
 
 # Copr Repositories
 sudo dnf -y copr enable valdikss/imgur-screenshot
