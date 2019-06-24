@@ -1,7 +1,7 @@
 # PHP Crap
 sudo dnf install -y nodejs \
-  php php-process php-opcache php-json \
-  php-msgpack php-xml php-mbstring php-xdebug php-intl
+  php php-pdo php-mysqlnd php-process php-opcache php-json \
+  php-msgpack php-xml php-mbstring php-xdebug php-intl php-zip
 
 ## Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
