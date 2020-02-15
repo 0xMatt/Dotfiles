@@ -21,7 +21,7 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle mafredri/zsh-async
 antigen bundle HeroCC/LS_COLORS
 # Load the theme.
-antigen theme geometry-zsh/geometry
+antigen theme romkatv/powerlevel10k
 #antigen theme bhilburn/powerlevel9k powerlevel9k
 
 # Powerlevel9k
