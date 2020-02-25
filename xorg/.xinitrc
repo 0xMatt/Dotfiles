@@ -15,11 +15,11 @@
 # Xsession and xinitrc scripts which has been factored out to avoid duplication
 . /etc/X11/xinit/xinitrc-common
 
-mopidy &
+#mopidy &
 
-xautolock -time 30 -locker i3lock-fancy &
+xautolock -time 10 -locker i3lock-fancy &
 
-transmission-remote -D -U -er -w ~/Downloads &
+#transmission-remote -D -U -er -w ~/Downloads &
 
 #feh --bg-scale ~/.dotfiles/wallpaper.jpg &
 
