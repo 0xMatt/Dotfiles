@@ -1,5 +1,11 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 export TERM="xterm-256color"
-POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
 source ~/.antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -11,7 +17,6 @@ antigen bundle git-extras
 antigen bundle command-not-found
 antigen bundle arialdomartini/oh-my-git
 antigen bundle history
-antigen bundle laravel
 antigen bundle chrissicool/zsh-256color
 
 # Syntax highlighting bundle.
@@ -20,17 +25,12 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 antigen bundle mafredri/zsh-async
 antigen bundle HeroCC/LS_COLORS
+
 # Load the theme.
 antigen theme romkatv/powerlevel10k
-#antigen theme bhilburn/powerlevel9k powerlevel9k
-
-# Powerlevel9k
-POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status vcs command_execution_time time)
-POWERLEVEL9K_MODE='awesome-fontconfig'
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 
 # Tell Antigen that you're done.
 antigen apply
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
