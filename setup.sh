@@ -28,12 +28,15 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
 # Steam
-sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
+#sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
 
 # Default Packages ;)
-sudo dnf -y install @base-x htop neofetch ncmpcpp git wget ctags words \
-  weechat compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
-  zsh util-linux-user whois traceroute xautolock dunst steam NetworkManager-wifi byzanz kernel-modules-extra
+sudo dnf -y install @base-x htop neofetch git wget ctags words \
+  compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
+  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit
+
+# Intel Wifi-6 AXC201 drivers
+sudo dnf install -y iwl7260-firmware
 
 # Copr Repositories
 sudo dnf -y copr enable valdikss/imgur-screenshot
