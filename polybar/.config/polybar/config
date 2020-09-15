@@ -172,14 +172,14 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wlp4s0
+interface = wlo1
 interval = 3.0
 
 format-connected-prefix = 
 ;format-connected-prefix-foreground = ${colors.blue}
 format-connected =  <label-connected>
 format-connected-padding = 0
-label-connected =  %downspeed%  %upspeed%
+label-connected = %essid%  %downspeed%  %upspeed%
 label-connected-padding = 1
 
 [module/eth]
