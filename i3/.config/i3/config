@@ -187,7 +187,7 @@ exec_always --no-startup-id ~/.config/i3/compton.sh
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.png
 
 ## Screen record
 bindsym $mod+Shift+Print exec ~/.config/i3/screencast.sh &
@@ -199,3 +199,6 @@ bindsym Ctrl+$mod+BackSpace exec i3lock-fancy
 ## Screenshot bindings
 bindsym Print exec imgur-screenshot --full
 bindsym $mod+Print exec imgur-screenshot
+
+## Gnome polkit for authentication popups
+exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1 &
