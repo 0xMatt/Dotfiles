@@ -24,7 +24,6 @@ xautolock -time 10 -locker i3lock-fancy &
 #feh --bg-scale ~/.dotfiles/wallpaper.jpg &
 
 exec i3
-
 # The user may have their own clients they want to run.  If they don't,
 # fall back to system defaults.
 #if [ -f $HOME/.Xclients ]; then

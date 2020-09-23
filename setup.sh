@@ -2,7 +2,7 @@
 
 ## Default dirs
 mkdir ~/Downloads ~/Documents ~/Games ~/Code ~/Media
-mkdir ~/Media/Screenshots ~/Media/Wallpapers ~/Media/Music ~/Media/Movies ~/Media/Pictures ~/Media/Videos
+mkdir ~/Media/Screenshots ~/Media/Wallpapers ~/Media/Music ~/Media/Movies ~/Media/Pictures ~/Media/Videos ~/Media/Screencasts
 
 # Make sure dotfiles are dropped in to avoid issues wit stow
 sudo dnf install -y stow
@@ -28,22 +28,22 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
 # Steam
-#sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
+sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
 
 # Default Packages ;)
-sudo dnf -y install @base-x htop neofetch git wget ctags words \
+sudo dnf -y install @base-x htop neofetch git wget ctags words kernel-devel \
   compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
-  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit
+  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit pavucontrol i3
 
 # Intel Wifi-6 AXC201 drivers
 sudo dnf install -y iwl7260-firmware
 
 # Copr Repositories
 sudo dnf -y copr enable valdikss/imgur-screenshot
-sudo dnf -y install imgur-screenshot
+sudo dnf -y --releasever=30 install imgur-screenshot
 
 sudo dnf -y copr enable livegrenier/i3-desktop
-sudo dnf -y install i3-gaps i3lock polybar rofi
+sudo dnf -y install i3-gaps i3lock polybar rofi --allowerasing
 
 ## i3lock
 git clone https://github.com/meskarune/i3lock-fancy.git
