@@ -31,9 +31,9 @@ sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curr
 sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
 
 # Default Packages ;)
-sudo dnf -y install @base-x htop neofetch git wget ctags words kernel-devel \
+sudo dnf -y install @base-x htop glances cmatrix neofetch git wget ctags words kernel-devel \
   compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
-  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit pavucontrol i3
+  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit pavucontrol system-config-printer cups
 
 # Intel Wifi-6 AXC201 drivers
 sudo dnf install -y iwl7260-firmware

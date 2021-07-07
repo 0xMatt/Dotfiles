@@ -20,7 +20,7 @@
     enable_vimfiler_gitstatus = true
 #enable_ale = true
     lint_on_the_fly = true
-    bootstrap_after = "myvim#after"
+#    bootstrap_after = "myvim#after"
 # Enable autocomplete layer
 
 [[layers]]

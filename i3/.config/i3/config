@@ -187,7 +187,8 @@ exec_always --no-startup-id ~/.config/i3/compton.sh
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.gif
+#exec_always --no-startup-id ~/Scripts/foo-Wallpaper-Feh-Gif/back4.sh 0.03 ~/.dotfiles/wallpaper.gif
 
 ## Screen record
 bindsym $mod+Shift+Print exec ~/.config/i3/screencast.sh &
