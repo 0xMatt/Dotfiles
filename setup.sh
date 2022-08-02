@@ -38,11 +38,13 @@ sudo dnf -y install @base-x htop glances cmatrix neofetch git wget ctags words k
 # Intel Wifi-6 AXC201 drivers
 sudo dnf install -y iwl7260-firmware
 
-# Copr Repositories
-sudo dnf -y copr enable valdikss/imgur-screenshot
-sudo dnf -y --releasever=30 install imgur-screenshot
+# Imgur Screenshot
+git clone https://github.com/jomo/imgur-screenshot.git
+chmod +x imgur-screenshot/imgur-screenshot
+sudo mv imgur-screenshot/imgur-screenshot /usr/bin/imgur-screenshot
+rm -rf imgur-screenshot
 
-sudo dnf -y copr enable livegrenier/i3-desktop
+# WM
 sudo dnf -y install i3-gaps i3lock polybar rofi --allowerasing
 
 ## i3lock
