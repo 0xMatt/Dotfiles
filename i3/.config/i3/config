@@ -242,6 +242,6 @@ bindsym $mod+Print exec imgur-screenshot
 
 ## Gnome polkit for authentication popups
 exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1 &
-exec --no-startup-id xautolock -time 10 -locker i3lock-fancy &
+exec --no-startup-id xautolock -time 60 -locker i3lock-fancy &
 
 exec --no-startup-id xdg-user-dirs-update
