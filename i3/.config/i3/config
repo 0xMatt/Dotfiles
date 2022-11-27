@@ -226,7 +226,7 @@ focus_follows_mouse no
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.jpg
+## exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpaper.jpg
 ## exec_always --no-startup-id ~/Scripts/foo-Wallpaper-Feh-Gif/back4.sh 0.03 ~/.dotfiles/wallpaper.gif
 
 ## Screen record
@@ -242,6 +242,8 @@ bindsym $mod+Print exec imgur-screenshot
 
 ## Gnome polkit for authentication popups
 exec --no-startup-id /usr/libexec/polkit-gnome-authentication-agent-1 &
-exec --no-startup-id xautolock -time 60 -locker i3lock-fancy &
-
+exec --no-startup-id xautolock -time 15 -locker i3lock-fancy &
+exec --no-startup-id /usr/bin/volumeicon
 exec --no-startup-id xdg-user-dirs-update
+exec dbus-update-activation-environment --all
+exec gnome-keyring-daemon --start --components=secrets
