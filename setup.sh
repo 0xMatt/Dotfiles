@@ -28,7 +28,7 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 
 # Steam
-sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
+#sudo dnf config-manager --add-repo=https://negativo17.org/repos/fedora-steam.repo
 
 # Default Packages ;)
 sudo dnf -y install @base-x htop glances cmatrix neofetch git wget ctags words kernel-devel \
