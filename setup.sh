@@ -12,13 +12,10 @@ stow compton
 stow i3
 stow polybar
 stow zsh
-stow neovim
-stow spacevim
 stow ranger
 stow dunst
 stow imgur-screenshot
 stow rofi
-stow xorg
 cd ~
 
 # RPMFusion
@@ -33,7 +30,7 @@ sudo dnf install -y https://dl.google.com/linux/direct/google-chrome-stable_curr
 # Default Packages ;)
 sudo dnf -y install @base-x htop glances cmatrix neofetch git wget ctags words kernel-devel \
   compton vim neovim feh adobe-source-code-pro-fonts fontawesome-fonts ranger gnome-terminal \
-  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit pavucontrol system-config-printer cups
+  zsh util-linux-user whois traceroute xautolock dunst NetworkManager-wifi byzanz polkit-desktop-policy polkit-gnome polkit pavucontrol system-config-printer cups scrot
 
 # Intel Wifi-6 AXC201 drivers
 sudo dnf install -y iwl7260-firmware
@@ -53,6 +50,12 @@ cd i3lock-fancy
 sudo make install
 cd ~
 rm -rf i3lock-fancy
+
+## Pipes.sh
+git clone git@github.com:pipeseroni/pipes.sh.git
+cd pipes.sh
+sudo make install
+cd ~/.dotfiles
 
 # Install Antigen
 curl -L git.io/antigen > ~/.antigen.zsh

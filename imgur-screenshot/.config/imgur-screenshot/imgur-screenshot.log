@@ -196,3 +196,140 @@ giblib error: no image grabbed'. For more information visit https://github.com/j
 2021-07-07T12:05:16-0500	https://i.imgur.com/BAhn1Ra.png	/home/matthew/Pictures/imgur-2021_07_07-12:05:14.png	https://imgur.com/delete/gvIJlLoi931q1fe
 2021-07-07T12:06:39-0500	https://i.imgur.com/QBqCxK9.jpg	/home/matthew/Pictures/imgur-2021_07_07-12:06:37.png	https://imgur.com/delete/JK3cLXCIqCXPkUf
 2021-07-07T12:06:43-0500	https://i.imgur.com/NfN76yc.jpg	/home/matthew/Pictures/imgur-2021_07_07-12:06:41.png	https://imgur.com/delete/2IK9KD0jWhtvHp0
+2023-05-02T13:32:35-0500	Failed to take screenshot 'imgur-2023_05_02-13:32:35.png': '/usr/bin/imgur-screenshot: line 271: scrot: command not found'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-02T13:32:40-0500	Failed to take screenshot 'imgur-2023_05_02-13:32:40.png': '/usr/bin/imgur-screenshot: line 271: scrot: command not found'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-02T13:35:09-0500	https://i.imgur.com/TF6Kxwo.png	/home/matthew/Pictures/imgur-2023_05_02-13:35:08.png	https://imgur.com/delete/ckqS5NIaIsByWm2
+2023-05-02T13:36:11-0500	https://i.imgur.com/LL2vlIz.png	/home/matthew/Pictures/imgur-2023_05_02-13:36:10.png	https://imgur.com/delete/Nh2kJzVCOklNOBc
+2023-05-02T13:38:25-0500	Failed to take screenshot 'imgur-2023_05_02-13:38:19.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-02T13:45:44-0500	https://i.imgur.com/dpSeUSj.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_02-13:45:42.png	https://imgur.com/delete/Wmbh617JmpwPEsD
+2023-05-03T13:43:28-0500	https://i.imgur.com/TDyURVM.png	/home/matthew/Media/Screenshots/imgur-2023_05_03-13:43:22.png	https://imgur.com/delete/xVAPvcazjYLDXhS
+2023-05-03T14:41:21-0500	https://i.imgur.com/6r8MiNg.png	/home/matthew/Media/Screenshots/imgur-2023_05_03-14:41:15.png	https://imgur.com/delete/lArm14sGtbUMgEY
+2023-05-03T19:55:47-0500	https://i.imgur.com/bAdF4ja.png	/home/matthew/Media/Screenshots/imgur-2023_05_03-19:55:42.png	https://imgur.com/delete/KF9Uf5Jw5oUS5e4
+2023-05-03T19:56:48-0500	https://i.imgur.com/EyFtDHB.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_03-19:56:41.png	https://imgur.com/delete/FhNxQdXEFMnj6Lf
+2023-05-03T23:04:39-0500	https://i.imgur.com/mltyYdL.png	/home/matthew/Media/Screenshots/imgur-2023_05_03-23:04:34.png	https://imgur.com/delete/pzy2NH7gy2HL4pr
+2023-05-04T16:59:15-0500	https://i.imgur.com/vguqfK5.png	/home/matthew/Media/Screenshots/imgur-2023_05_04-16:59:10.png	https://imgur.com/delete/InyyKTZ78vmmikn
+2023-05-04T17:00:34-0500	Failed to take screenshot 'imgur-2023_05_04-17:00:30.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-04T17:00:41-0500	https://i.imgur.com/rdXKPv8.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_04-17:00:36.png	https://imgur.com/delete/qYyAFVAOJRbMWWF
+2023-05-04T19:11:53-0500	Failed to take screenshot 'imgur-2023_05_04-19:11:50.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-04T19:12:07-0500	https://i.imgur.com/Wsjff8b.png	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:11:58.png	https://imgur.com/delete/l10rIiVL5quLKZn
+2023-05-04T19:21:55-0500	https://i.imgur.com/e4t1fOe.png	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:21:52.png	https://imgur.com/delete/LWNmz09vEjse2Hr
+2023-05-04T19:22:01-0500	Failed to take screenshot 'imgur-2023_05_04-19:21:59.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-04T19:22:09-0500	https://i.imgur.com/T6pl7tH.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:22:04.png	https://imgur.com/delete/ZAtGjP74yOk6NIq
+2023-05-04T19:22:11-0500	https://i.imgur.com/iuUWnsS.png	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:22:08.png	https://imgur.com/delete/bZUk0slVDbM2YlZ
+2023-05-04T19:22:27-0500	https://i.imgur.com/1QRkJKh.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:22:22.png	https://imgur.com/delete/gF1v1aWYhYm5Ill
+2023-05-04T19:22:30-0500	Failed to take screenshot 'imgur-2023_05_04-19:22:27.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-04T19:22:46-0500	https://i.imgur.com/rszsXTL.png	/home/matthew/Media/Screenshots/imgur-2023_05_04-19:22:33.png	https://imgur.com/delete/Y3mkEx0ftydLUGC
+2023-05-05T10:43:35-0500	https://i.imgur.com/TgdervY.png	/home/matthew/Media/Screenshots/imgur-2023_05_05-10:43:31.png	https://imgur.com/delete/yxXTKqStY2tQ0NT
+2023-05-05T19:11:59-0500	https://i.imgur.com/hMooUXh.png	/home/matthew/Media/Screenshots/imgur-2023_05_05-19:11:53.png	https://imgur.com/delete/We5x2a8XIJZxo1f
+2023-05-05T20:36:50-0500	https://i.imgur.com/WK31do5.png	/home/matthew/Media/Screenshots/imgur-2023_05_05-20:36:44.png	https://imgur.com/delete/1ks0hog3N7Er95M
+2023-05-05T22:35:06-0500	https://i.imgur.com/KFbjqB6.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_05-22:35:01.png	https://imgur.com/delete/ap94qSxOlmvbC3N
+2023-05-06T11:57:30-0500	https://i.imgur.com/v5NXPGH.png	/home/matthew/Media/Screenshots/imgur-2023_05_06-11:57:26.png	https://imgur.com/delete/y9IaSRkNjIyjpum
+2023-05-08T09:45:43-0500	Failed to take screenshot 'imgur-2023_05_08-09:45:42.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-08T16:50:29-0500	https://i.imgur.com/TOncrXO.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_08-16:50:23.png	https://imgur.com/delete/FKxPoEbManCF7EZ
+2023-05-08T17:22:31-0500	https://i.imgur.com/n08b2bk.png	/home/matthew/Media/Screenshots/imgur-2023_05_08-17:22:24.png	https://imgur.com/delete/C1xDxsYt4HmgpmW
+2023-05-08T21:54:37-0500	https://i.imgur.com/WRvTCq8.png	/home/matthew/Media/Screenshots/imgur-2023_05_08-21:54:32.png	https://imgur.com/delete/36Y8Y4r4GIdQoJq
+2023-05-10T10:55:13-0500	https://i.imgur.com/dD9fpQ8.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-10:55:08.png	https://imgur.com/delete/VGohnIVtU4pXBhy
+2023-05-10T13:29:24-0500	https://i.imgur.com/7s2Y9rt.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-13:29:18.png	https://imgur.com/delete/juze4c7jrDNHxWu
+2023-05-10T14:04:47-0500	https://i.imgur.com/uc1r1Mr.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-14:04:43.png	https://imgur.com/delete/EKhaona1pLByhDy
+2023-05-10T14:09:02-0500	https://i.imgur.com/GbIc0n2.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-14:08:57.png	https://imgur.com/delete/aHMSCfZGBvnZCnL
+2023-05-10T14:10:39-0500	https://i.imgur.com/EnLpK64.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-14:10:36.png	https://imgur.com/delete/aIDZdN6ypyaSTsF
+2023-05-10T14:11:51-0500	https://i.imgur.com/FxcdZ8p.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-14:11:45.png	https://imgur.com/delete/VvsySpg8n9EOged
+2023-05-10T14:12:18-0500	https://i.imgur.com/GV4K0xK.png	/home/matthew/Media/Screenshots/imgur-2023_05_10-14:12:15.png	https://imgur.com/delete/wt2zHi8zNrZ7KGT
+2023-05-11T13:13:24-0500	https://i.imgur.com/fDJCQL9.png	/home/matthew/Media/Screenshots/imgur-2023_05_11-13:13:18.png	https://imgur.com/delete/cFoO8DHkemsa3Y8
+2023-05-11T15:04:32-0500	https://i.imgur.com/lDdF8cv.png	/home/matthew/Media/Screenshots/imgur-2023_05_11-15:04:24.png	https://imgur.com/delete/p0d0hsQAntu0WJT
+2023-05-11T20:21:50-0500	https://i.imgur.com/zpI8d1r.png	/home/matthew/Media/Screenshots/imgur-2023_05_11-20:21:45.png	https://imgur.com/delete/0QIcgID9WFqi05e
+2023-05-12T12:34:00-0500	https://i.imgur.com/hwOuqQM.png	/home/matthew/Media/Screenshots/imgur-2023_05_12-12:33:54.png	https://imgur.com/delete/OvWUWK3bzf5wNxX
+2023-05-12T14:01:45-0500	https://i.imgur.com/LuGjH1m.png	/home/matthew/Media/Screenshots/imgur-2023_05_12-14:01:42.png	https://imgur.com/delete/YCbX0ACWIwW0bXf
+2023-05-12T14:51:09-0500	https://i.imgur.com/NI0x3qZ.png	/home/matthew/Media/Screenshots/imgur-2023_05_12-14:51:04.png	https://imgur.com/delete/uvNATu4lgXyi25w
+2023-05-13T14:55:07-0500	https://i.imgur.com/SaUGszD.png	/home/matthew/Media/Screenshots/imgur-2023_05_13-14:54:55.png	https://imgur.com/delete/1ymUBHSSWjifNzd
+2023-05-13T14:55:39-0500	https://i.imgur.com/67uhtG1.png	/home/matthew/Media/Screenshots/imgur-2023_05_13-14:55:34.png	https://imgur.com/delete/hPSXgKA7cG0J53N
+2023-05-13T20:08:34-0500	https://i.imgur.com/gQbBTQf.png	/home/matthew/Media/Screenshots/imgur-2023_05_13-20:08:29.png	https://imgur.com/delete/v288S335BibXlRm
+2023-05-13T20:09:14-0500	https://i.imgur.com/NU8oV2Y.png	/home/matthew/Media/Screenshots/imgur-2023_05_13-20:09:12.png	https://imgur.com/delete/lzYWyRm9vqMV55s
+2023-05-15T10:03:19-0500	https://i.imgur.com/rR11jaE.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_15-10:03:13.png	https://imgur.com/delete/P2td8ncNXx6FiI5
+2023-05-15T10:03:26-0500	Failed to take screenshot 'imgur-2023_05_15-10:03:24.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-15T10:03:29-0500	https://i.imgur.com/a7s2y6p.jpg	/home/matthew/Media/Screenshots/imgur-2023_05_15-10:03:27.png	https://imgur.com/delete/JqJeyyumCnAQqfs
+2023-05-15T10:52:38-0500	https://i.imgur.com/Cf23xQ8.png	/home/matthew/Media/Screenshots/imgur-2023_05_15-10:52:29.png	https://imgur.com/delete/pB3PEpkrNYqRcrW
+2023-05-15T10:56:28-0500	Failed to take screenshot 'imgur-2023_05_15-10:56:23.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-05-15T23:01:30-0500	https://i.imgur.com/zCJmJtY.png	/home/matthew/Media/Screenshots/imgur-2023_05_15-23:01:23.png	https://imgur.com/delete/GeMfz5tZ0SGNLdI
+2023-05-17T02:32:53-0500	https://i.imgur.com/AnBhcNM.png	/home/matthew/Media/Screenshots/imgur-2023_05_17-02:32:49.png	https://imgur.com/delete/jvdCDe6uFU7yK9W
+2023-05-17T15:16:54-0500	https://i.imgur.com/ZXGASXb.png	/home/matthew/Media/Screenshots/imgur-2023_05_17-15:16:49.png	https://imgur.com/delete/ryi44khJiUkHJ4J
+2023-05-17T15:18:40-0500	https://i.imgur.com/Qd440ar.png	/home/matthew/Media/Screenshots/imgur-2023_05_17-15:18:36.png	https://imgur.com/delete/Nb2mMMF5JreKUpn
+2023-05-19T12:46:06-0500	https://i.imgur.com/Fm84S2X.png	/home/matthew/Media/Screenshots/imgur-2023_05_19-12:46:02.png	https://imgur.com/delete/BlvChbhZ4HgkZ5w
+2023-05-19T15:18:18-0500	https://i.imgur.com/SJOAxNG.png	/home/matthew/Media/Screenshots/imgur-2023_05_19-15:18:12.png	https://imgur.com/delete/lrbu3onE815ZIEo
+2023-05-21T14:26:28-0500	https://i.imgur.com/143udtf.png	/home/matthew/Media/Screenshots/imgur-2023_05_21-14:26:23.png	https://imgur.com/delete/1IsM1EthqjSBwAb
+2023-05-21T14:37:07-0500	https://i.imgur.com/81GMxfC.png	/home/matthew/Media/Screenshots/imgur-2023_05_21-14:37:02.png	https://imgur.com/delete/67FuDOUSRLMkjmb
+2023-05-21T14:53:55-0500	https://i.imgur.com/fdJJddq.png	/home/matthew/Media/Screenshots/imgur-2023_05_21-14:53:52.png	https://imgur.com/delete/7rZrcJThtoh0Dx6
+2023-06-10T16:10:47-0500	https://i.imgur.com/mCkh3c2.png	/home/matthew/Media/Screenshots/imgur-2023_06_10-16:10:41.png	https://imgur.com/delete/lU4QgQaEdbtu6Jk
+2023-06-10T16:11:38-0500	https://i.imgur.com/SA01QmE.png	/home/matthew/Media/Screenshots/imgur-2023_06_10-16:11:33.png	https://imgur.com/delete/dcaiwnUCR6uTsM0
+2023-06-10T16:13:20-0500	https://i.imgur.com/gBEesJm.png	/home/matthew/Media/Screenshots/imgur-2023_06_10-16:13:15.png	https://imgur.com/delete/fe5p8QtuPP1fseM
+2023-06-12T12:01:32-0500	https://i.imgur.com/jIA8IdQ.png	/home/matthew/Media/Screenshots/imgur-2023_06_12-12:01:21.png	https://imgur.com/delete/nkWsTqhSm3iiI0J
+2023-06-15T12:32:11-0500	https://i.imgur.com/O4Xgfvt.png	/home/matthew/Media/Screenshots/imgur-2023_06_15-12:32:07.png	https://imgur.com/delete/pPACrNRxHYpBgSU
+2023-06-16T17:28:58-0500	Failed to take screenshot 'imgur-2023_06_16-17:28:55.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-06-16T17:29:06-0500	https://i.imgur.com/YtOhpc3.jpg	/home/matthew/Media/Screenshots/imgur-2023_06_16-17:28:59.png	https://imgur.com/delete/iTRXr2fDTs0F3yJ
+2023-06-16T17:30:25-0500	Failed to take screenshot 'imgur-2023_06_16-17:30:24.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-06-16T17:30:43-0500	https://i.imgur.com/xD1AkUD.jpg	/home/matthew/Media/Screenshots/imgur-2023_06_16-17:30:34.png	https://imgur.com/delete/AW3oQ7vsCp69b8p
+2023-06-16T21:13:41-0500	https://i.imgur.com/rpcIPHg.png	/home/matthew/Media/Screenshots/imgur-2023_06_16-21:13:34.png	https://imgur.com/delete/XLHGDkZncTrucyI
+2023-06-17T12:46:23-0500	https://i.imgur.com/2jnLGZh.png	/home/matthew/Media/Screenshots/imgur-2023_06_17-12:46:17.png	https://imgur.com/delete/TDPXuMGnmkoW1Sb
+2023-06-17T16:41:38-0500	https://i.imgur.com/KYhe89N.png	/home/matthew/Media/Screenshots/imgur-2023_06_17-16:41:33.png	https://imgur.com/delete/TTteAiLYVnKzdEj
+2023-06-17T16:42:33-0500	https://i.imgur.com/TdTjkqU.png	/home/matthew/Media/Screenshots/imgur-2023_06_17-16:42:28.png	https://imgur.com/delete/R9P1gN8dFVMHIPw
+2023-06-17T17:39:09-0500	https://i.imgur.com/O6FzY1g.png	/home/matthew/Media/Screenshots/imgur-2023_06_17-17:39:03.png	https://imgur.com/delete/GldXtrMhMTFLJRB
+2023-06-17T19:47:10-0500	https://i.imgur.com/q1vuDMB.png	/home/matthew/Media/Screenshots/imgur-2023_06_17-19:47:02.png	https://imgur.com/delete/6wRh6DyO9cmSsFC
+2023-07-06T13:18:13-0500	https://i.imgur.com/omrN4UD.jpg	/home/matthew/Media/Screenshots/imgur-2023_07_06-13:18:09.png	https://imgur.com/delete/YWnCV2LUapIJsqX
+2023-07-06T13:22:01-0500	https://i.imgur.com/lTtdrjc.jpg	/home/matthew/Media/Screenshots/imgur-2023_07_06-13:21:58.png	https://imgur.com/delete/GTV41zbFbGO353i
+2023-07-11T12:04:00-0500	https://i.imgur.com/qiiI7BW.png	/home/matthew/Media/Screenshots/imgur-2023_07_11-12:03:54.png	https://imgur.com/delete/nZfhYi3AQst4UFJ
+2023-07-11T15:42:10-0500	https://i.imgur.com/xxpVmFR.png	/home/matthew/Media/Screenshots/imgur-2023_07_11-15:42:05.png	https://imgur.com/delete/2Pgh5REVKWXlbF6
+2023-07-11T15:43:07-0500	https://i.imgur.com/nFAqGFO.png	/home/matthew/Media/Screenshots/imgur-2023_07_11-15:43:02.png	https://imgur.com/delete/OfcNgLdzuBKZtow
+2023-07-11T15:48:41-0500	https://i.imgur.com/N3eAgC9.png	/home/matthew/Media/Screenshots/imgur-2023_07_11-15:48:36.png	https://imgur.com/delete/HNQYRNV3KbQy6yG
+2023-09-07T17:26:24-0500	https://i.imgur.com/gUPa1Mv.png	/home/matthew/Media/Screenshots/imgur-2023_09_07-17:26:19.png	https://imgur.com/delete/zbmcs3cSjrMO6Qe
+2023-10-31T13:38:09-0500	https://i.imgur.com/1dhhoNz.png	/home/matthew/Media/Screenshots/imgur-2023_10_31-13:38:03.png	https://imgur.com/delete/bBLk5DKtoJ6SkTQ
+2023-11-10T13:44:37-0600	https://i.imgur.com/atRoKrd.png	/home/matthew/Media/Screenshots/imgur-2023_11_10-13:44:36.png	https://imgur.com/delete/IZPYpki9v9qhC4C
+2023-11-22T12:08:40-0600	https://i.imgur.com/meGNfyi.jpg	/home/matthew/Media/Screenshots/imgur-2023_11_22-12:08:33.png	https://imgur.com/delete/B2TN4f2cJE2srKc
+2023-11-22T12:09:53-0600	https://i.imgur.com/4aANfho.jpg	/home/matthew/Media/Screenshots/imgur-2023_11_22-12:09:47.png	https://imgur.com/delete/4afIN4OKk5kgtQ2
+2023-11-29T04:01:36-0600	https://i.imgur.com/IaSNrCe.png	/home/matthew/Media/Screenshots/imgur-2023_11_29-04:01:32.png	https://imgur.com/delete/wXvbbL3JhSPsCAU
+2023-12-01T12:47:16-0600	Failed to take screenshot 'imgur-2023_12_01-12:47:15.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-12-01T12:47:20-0600	https://i.imgur.com/7DYpO3P.png	/home/matthew/Media/Screenshots/imgur-2023_12_01-12:47:16.png	https://imgur.com/delete/trpQv4GB7WRszv4
+2023-12-01T12:47:21-0600	https://i.imgur.com/gFij1BK.png	/home/matthew/Media/Screenshots/imgur-2023_12_01-12:47:19.png	https://imgur.com/delete/fhXI9CPbwGKaDHD
+2023-12-04T09:24:33-0600	Failed to take screenshot 'imgur-2023_12_04-09:24:25.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-12-04T09:24:52-0600	https://i.imgur.com/pAw22OP.png	/home/matthew/Media/Screenshots/imgur-2023_12_04-09:24:49.png	https://imgur.com/delete/zCHx6azN3mZHT0F
+2023-12-04T09:24:53-0600	Failed to take screenshot 'imgur-2023_12_04-09:24:51.png': 'scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-12-04T09:24:59-0600	Failed to take screenshot 'imgur-2023_12_04-09:24:57.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-12-04T09:25:07-0600	https://i.imgur.com/rYk7YhE.png	/home/matthew/Media/Screenshots/imgur-2023_12_04-09:25:00.png	https://imgur.com/delete/miYAiZ1cWh1fjn8
+2023-12-04T10:11:52-0600	https://i.imgur.com/S1VOj28.png	/home/matthew/Media/Screenshots/imgur-2023_12_04-10:11:47.png	https://imgur.com/delete/DIq6sgsQpf300pa
+2023-12-04T12:34:32-0600	https://i.imgur.com/wBWj3UP.png	/home/matthew/Media/Screenshots/imgur-2023_12_04-12:34:30.png	https://imgur.com/delete/PPNARacnEB4dNHV
+2023-12-04T15:35:49-0600	https://i.imgur.com/p8OuWpM.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_04-15:35:46.png	https://imgur.com/delete/74th4NZpLGLlHVh
+2023-12-04T15:36:28-0600	https://i.imgur.com/IDYKm29.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_04-15:36:26.png	https://imgur.com/delete/iBu4IN0qMymJz3N
+2023-12-04T17:34:55-0600	https://i.imgur.com/uXv8lJq.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_04-17:34:52.png	https://imgur.com/delete/0W2aulorJVQ1bgN
+2023-12-04T17:34:57-0600	https://i.imgur.com/vH8HEOt.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_04-17:34:52.png	https://imgur.com/delete/MvJuPFSJdTZaYKQ
+2023-12-05T10:54:29-0600	https://i.imgur.com/NT4Jcr5.png	/home/matthew/Media/Screenshots/imgur-2023_12_05-10:54:25.png	https://imgur.com/delete/YewTB83lCBJ5R7F
+2023-12-05T16:16:40-0600	https://i.imgur.com/vQHwqm1.png	/home/matthew/Media/Screenshots/imgur-2023_12_05-16:16:39.png	https://imgur.com/delete/UGiUBh8nP9Qjqcd
+2023-12-05T16:47:07-0600	https://i.imgur.com/Wxxb3qa.png	/home/matthew/Media/Screenshots/imgur-2023_12_05-16:46:56.png	https://imgur.com/delete/rZsbsGfxVQcc9AT
+2023-12-08T12:13:59-0600	https://i.imgur.com/rFaFbkS.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_08-12:13:54.png	https://imgur.com/delete/Wptr0FNd0WXP8CQ
+2023-12-09T05:48:50-0600	Failed to take screenshot 'imgur-2023_12_09-05:48:48.png': 'scrot: Key was pressed, aborting shot
+scrot: no image grabbed'. For more information visit https://github.com/jomo/imgur-screenshot/wiki/Troubleshooting
+2023-12-09T05:48:58-0600	https://i.imgur.com/6FWLi8G.png	/home/matthew/Media/Screenshots/imgur-2023_12_09-05:48:54.png	https://imgur.com/delete/MPMnoTvz1FoSruO
+2023-12-09T05:58:16-0600	https://i.imgur.com/xeo0kfG.png	/home/matthew/Media/Screenshots/imgur-2023_12_09-05:58:12.png	https://imgur.com/delete/a36YkrIt5sQI2P5
+2023-12-09T05:59:01-0600	https://i.imgur.com/hVYn9zv.png	/home/matthew/Media/Screenshots/imgur-2023_12_09-05:58:57.png	https://imgur.com/delete/L7HWIbT6jS76phP
+2023-12-09T06:00:48-0600	https://i.imgur.com/eS1DuWz.png	/home/matthew/Media/Screenshots/imgur-2023_12_09-06:00:44.png	https://imgur.com/delete/B4mGu0DriZYh9Wa
+2023-12-13T11:09:48-0600	https://i.imgur.com/Gfu2HXU.png	/home/matthew/Media/Screenshots/imgur-2023_12_13-11:09:44.png	https://imgur.com/delete/LneN3pO9CrtddAl
+2023-12-22T09:50:30-0600	https://i.imgur.com/WLSa8Ei.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_22-09:50:25.png	https://imgur.com/delete/4BVa6m0pol3sww2
+2023-12-22T10:21:35-0600	https://i.imgur.com/YOoFH1c.jpg	/home/matthew/Media/Screenshots/imgur-2023_12_22-10:21:33.png	https://imgur.com/delete/UPnbNO6MBbb12Hu
+2023-12-26T23:07:27-0600	https://i.imgur.com/q9FHiEd.png	/home/matthew/Media/Screenshots/imgur-2023_12_26-23:07:25.png	https://imgur.com/delete/Q9kGci6cAvtsL15
+2023-12-26T23:07:37-0600	https://i.imgur.com/c0EJHeN.png	/home/matthew/Media/Screenshots/imgur-2023_12_26-23:07:33.png	https://imgur.com/delete/28bazUcIrI8o8ia
+2024-01-18T11:34:12-0600	https://i.imgur.com/mHI4BlR.png	/home/matthew/Media/Screenshots/imgur-2024_01_18-11:34:11.png	https://imgur.com/delete/o2CYxsEOvy274kK
+2024-01-26T16:02:14-0600	https://i.imgur.com/34wgqz5.png	/home/matthew/Media/Screenshots/imgur-2024_01_26-16:02:07.png	https://imgur.com/delete/Yxqtf823oEKhjl9
+2024-01-30T10:47:58-0600	https://i.imgur.com/SquFADa.png	/home/matthew/Media/Screenshots/imgur-2024_01_30-10:47:50.png	https://imgur.com/delete/6lVwTv0GGz7ZYph
+2024-02-26T11:06:16-0600	https://i.imgur.com/3F0VwJK.png	/home/matthew/Media/Screenshots/imgur-2024_02_26-11:06:04.png	https://imgur.com/delete/gKdQ43T3akh2zxv
+2024-02-26T11:08:28-0600	https://i.imgur.com/4XOlPMA.png	/home/matthew/Media/Screenshots/imgur-2024_02_26-11:08:20.png	https://imgur.com/delete/k6IlHY4CnxefIhs

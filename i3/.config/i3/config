@@ -61,7 +61,7 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
-#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+  #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
 
 # change focus
@@ -222,16 +222,17 @@ gaps outer 5
 focus_follows_mouse no
 
 ## Compton
-#exec_always --no-startup-id ~/.config/i3/compton.sh
+exec_always --no-startup-id ~/.config/i3/compton.sh
 
 ## Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-scale ~/.dotfiles/dark-wallpaper.png
+exec_always --no-startup-id feh --bg-scale ~/.dotfiles/wallpapers/wallpaper.png
+
 ## exec_always --no-startup-id ~/Scripts/foo-Wallpaper-Feh-Gif/back4.sh 0.03 ~/.dotfiles/wallpaper.gif
 
 ## Screen record
-## bindsym $mod+Shift+Print exec ~/.config/i3/screencast.sh &
+bindsym $mod+Shift+Print exec ~/.config/i3/screencast.sh &
 
 ## Lockscreen
 bindsym Ctrl+$mod+BackSpace exec i3lock-fancy

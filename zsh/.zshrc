@@ -15,7 +15,7 @@ antigen use oh-my-zsh
 antigen bundle git
 #antigen bundle git-extras
 antigen bundle command-not-found
-antigen bundle arialdomartini/oh-my-git
+#antigen bundle arialdomartini/oh-my-git
 antigen bundle history
 antigen bundle chrissicool/zsh-256color
 
@@ -34,3 +34,7 @@ antigen apply
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
